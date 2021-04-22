@@ -7,7 +7,7 @@
 ## 1. The text contains the following:
 > I defined a Cart model class in the previous chapter and demonstrated how it can be stored using the session feature, allowing the user to build up a set of products for purchase. The responsibility for managing the persistence of the Cart class fell to the Cart Razor Page, which has to deal with getting and storing Cart objects as session data. The problem with this approach is that I will have to duplicate the code that obtains and stores Cart objects in any other Razor Page or controller that uses them.   
  
-> In your own words, describe thee “problem” the author identifies and explain why the proposed solution is not satisfactory.
+In your own words, describe thee “problem” the author identifies and explain why the proposed solution is not satisfactory.
 - The "problem" that the author referred to was object instantiation, using dependency injection and singleton provide more flexibility with object instantiation in addition session state will be lost if the application is restarted. 
 
 ## 2. What are services, and how do they work.  
